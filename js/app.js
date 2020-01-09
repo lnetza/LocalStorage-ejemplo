@@ -82,5 +82,4 @@ function deleteTask(title){
 
 }
 
-
 getTask();
