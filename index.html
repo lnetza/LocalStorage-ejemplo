@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Product App</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/litera/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <a href="/" class="navbar-brand">
+            App product 
+        </a>
+    </nav>
+
+    <div class="container">
+        <div id="App" class="row pt-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Add task</h4>
+                    </div>
+                    
+                    <form id="formTask" class="card-body">
+                        <div class="form-group">
+                            <input type="text" id="title" placeholder="Nombre" class="form-control">
+                            
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="description" class="form-control"> </textarea>
+                        </div>
+                        <input type="submit" value="Guardar" class="btn btn-primary btn-block">
+                    </form>
+
+                </div>
+            </div>
+
+            <div class="col-md-8">
+               <div id="tasks">
+
+               </div>
+            </div>
+        </div>
+    </div>
+<script src="js/app.js"></script>
+
+</body>
+</html>
